@@ -1,0 +1,40 @@
+{
+    "author": "noagagin@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "black-cat",
+    "pebble": {
+        "displayName": "Black Cat",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "imag_menu",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_BACKGROUND100w.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "03420666-d576-4fa3-b297-2b6e8fe7d5b7",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
